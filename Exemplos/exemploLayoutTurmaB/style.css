@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+#main{
+    background-color: #dedede;
+    height: 100vh;
+}
+
+#header{
+
+    background-color: #e38989;
+    height: 15%;
+    text-align: center;
+
+}
+
+#header img{
+    width: 150px;
+    height: 100px;
+
+}
+
+#nav{
+    background-color: #666;
+    height: 5%;
+}
+
+#section{
+  height: 80%;
+  padding: 20px;
+}
+
+#aside{
+    width: 50%;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+
+#aside-2{
+    width: 50%;
+    height: 100%;
+    float: left;
+    padding: 0px 10px;
+}
+
+/*
+    - Aplica para todos os lados
+    padding: 10px; 
+
+    -Aplicam os espaços individualmente
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+
+    - Aplica espaçamentos diferentes no sentido horario
+    padding: 5px 10px 15px 20px;
+
+    - Aplica 0px cima/baixo e 10px direita/esquerda
+    padding: 0px 10px;
+
+*/
+
+.article{
+    background-color: #e38989;
+    height: calc(25% - 7.5px);
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 7px 9px 5px -4px #000000;
+}
+
+.article:hover{
+    background-color: #666;
+    
+}
+
+#aside img{
+    width: 50%;
+    margin-top: 25vh;
+}
+
+h1{
+    color: black;
+    font-size: 50px;
+}
+
+
+.article > h1{
+    font-size: 30px;
+    color: white;
+}
+
+.article > p {
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+

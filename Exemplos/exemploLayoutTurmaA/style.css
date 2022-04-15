@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    color: #666;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+#main{
+    background-color: #dedede;
+    height: 100vh;
+}
+
+#header{
+
+    background-color: #e38989;
+    height: 15%;
+
+}
+
+#nav{
+    background-color: #666;
+    height: 5%;
+}
+
+#section{
+  height: 80%;
+  padding: 20px;
+}
+
+#aside{
+    width: 50%;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+
+#aside-2{
+    width: 50%;
+    height: 100%;
+    float: left;
+    padding: 0px 10px;
+
+}
+
+/*
+    padding: 5px; - atribui para todos os lados 
+    padding: 5px 10px 15px 20px; atribui para cada lado um valor
+    padding: 5px 10px; - 5px cima baixo / 10px direita esquerda
+
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+*/
+
+.article{
+    height: calc(25% - 7.5px);
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #666;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 6px 5px 13px -3px rgba(0,0,0,0.85);
+
+}
+
+h1{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+p{
+    font-size: 22px;
+
+}
+
+img{
+    margin-top: 25vh;
+    width: 50%;
+}
