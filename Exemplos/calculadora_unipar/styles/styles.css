@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+
+}
+main{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#keyboard{
+    display: flex;
+    flex-wrap: wrap;
+    width: 250px;
+    justify-content: center;
+    border: 1px solid rgb(92, 92, 92);
+    border-radius: 5px;
+}
+
+
+
+#keyboard button{
+
+    width: 25%;
+    border: 1px solid rgb(141, 140, 140);
+    padding: 15px 10px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+  
+
+}
+
+#keyboard button:hover:not(.display_input){
+    background-color: rgb(204, 203, 203); 
+}
+
+
+.display_input{
+    width: 100% !important;
+    background-color: #555;
+    border: none !important;
+    padding: 5px;
+
+}
+
+
+.display_input input{
+    width: 100%;
+    margin: 0;
+    border: 0;
+    height: 50px;
+    font-size: 30px;
+    text-align: right;
+    color: white;
+    background-color: #555;
+}
+
+input:focus-visible{
+    outline: none;
+}
+
+.operation{
+    background-color: #f5923d;
+    color: white;
+}
